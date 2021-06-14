@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "bitter";
+    src: url(/font/Bitter-VariableFont_wght.ttf)
+}
+body {
+    font-family: "bitter";
+    background-color: rgb(243, 247, 243);
+ 
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgba(43, 107, 145, 0.5);
+    padding-left: 1.6em;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    color: rgb(246, 250, 246);
+    padding: 1.7rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(112, 113, 114);
+    border-radius: 5px;
+}
+#logo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+}
+img {
+margin: auto;
+display: block;
+    width: 20vw;
+    height: 30vh;
+    padding-bottom: 1rem;
+
+   
+}
+/* start to make the boxes */
+.row {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .row div {
+    width: 50%;
+    align-content: center;
+  }
+  
+  .noMargin {
+    margin-top: 5rem;
+  }
+  /* boxes 1-4 */
+  .one {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+}
+  
+  .two {
+    background-color: rgb(250, 250, 249);
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .three {
+    background-color: rgb(243, 247, 243);
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .four {
+    background-color: rgb(10, 10, 10);
+    color: rgb(236, 227, 236);
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+  /* links to further info */
+  .myLink {
+    text-decoration: none;
+    border: 0.5px solid rgba(95, 95, 95, 0);
+    background-color: rgba(43, 107, 145, 0.5);
+    position: bottom;
+    padding: .6em;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: .8rem;
+  }
+
+  .myLink:hover {
+    color: rgb(112, 113, 114);
+    border-radius: 5px;
+    background-color: rgba(43, 108, 145, 0.301);
+  }
+
+  .myLinkTwo {
+    text-decoration: none;
+    border: 0.5px solid rgba(95, 95, 95, 0);
+    background-color: rgba(43, 107, 145, 0.5);
+    position: bottom;
+    padding: .6em;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: .8rem;
+  }
+
+  .myLinkTwo:hover {
+    color: rgb(112, 113, 114);
+    border-radius: 5px;
+    background-color: rgba(43, 108, 145, 0.301);
+  }
+
+  .box {
+    text-decoration: none;
+    border: 0.5px solid rgba(95, 95, 95, 0);
+    background-color: rgba(43, 107, 145, 0.5);
+    position: bottom;
+    padding: .6em;
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    font-size: .8rem;
+  }
+  .para {
+    padding-bottom: 2rem;
+  }

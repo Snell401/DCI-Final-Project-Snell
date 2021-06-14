@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "bitter";
+  src: url(/font/Bitter-VariableFont_wght.ttf);
+}
+body {
+  font-family: "bitter";
+  background-color: rgb(243, 247, 243);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-decoration: none;
+  background-color: rgba(43, 107, 145, 0.5);
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: rgb(243, 247, 243);
+  padding: 1.7rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(112, 113, 114);
+  border-radius: 5px;
+}
+
+/* h2{
+    text-align: center;
+} */
+#logo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+}
+
+/* what is first aid for MH */
+#pageTitle {
+  text-align: center;
+  margin-top: 6rem;
+  color: rgba(43, 108, 145, 1);
+}
+.mhC {
+  margin-bottom: 1rem;
+  color: rgba(43, 107, 145, 1);
+}
+.mentalHealth {
+  margin: 0.5rem 2rem 1rem 1rem;
+  color: rgba(43, 107, 145, 1);
+}
+
+.early {
+  margin: 0.5rem 2rem 0.5rem 1rem;
+  color: rgba(43, 107, 145, 1);
+}
+
+.earlyCL {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-top: 1rem;
+}
+
+.list {
+  background-color: rgba(43, 107, 145, 0.5);
+  color: rgb(243, 247, 243);
+
+  margin: 2rem 2rem;
+  padding: 1rem 2rem;
+  font-family: "bitter";
+  font-weight: 1000;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.mh {
+  margin-top: 2rem;
+  font-family: "bitter";
+  color: rgb(43, 107, 145);
+}
+/* mission section */
+#heading {
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 8000;
+  font-style: oblique;
+}
+.AboutUs {
+  width: 100%;
+  text-align: center;
+}
+.para1 {
+  padding: 0.5rem;
+}
+
+.para3 {
+  padding: 0.5rem;
+}
+
+img {
+  margin: auto;
+  border: 20px;
+  display: block;
+  width: 50%;
+  height: 50%;
+  padding-bottom: 1rem;
+}
+
+/* link to courses button */
+.footer {
+  text-align: center;
+  align-content: center;
+}
+.myLink {
+  position: relative;
+  text-decoration: none;
+  border: 0.5px solid rgba(95, 95, 95, 0);
+  background-color: rgba(43, 107, 145, 0.5);
+  padding: 0.5em;
+  border-radius: 5%;
+  color: lemonchiffon;
+  font-size: 0.9rem;
+}
+
+.myLink:hover {
+  color: rgb(112, 113, 114);
+  border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+body {
+font-family: "bitter";
+background-color: rgba(199, 117, 62, 0.5);
+
+}
+
+#logo {
+  position:inherit;
+  margin-top: 3rem;
+  text-align: center;
+  
+     
+}
+.myLink {
+  position: absolute;
+  text-decoration: none;
+  top: 84%;
+  left: 50.5%;
+  transform: translate(-50%, -50%);
+  border: 0.5px solid rgba(95, 95, 95, 0.856);
+  background-color: rgba(255, 255, 255, 0.336);
+  padding: .4em;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: .8rem;
+  font-size: 1rem;
+
+}
+
+.myLink:hover {
+  color: rgb(27, 45, 206);
+  border-radius: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.856);
+}
